@@ -6,3 +6,6 @@
 * Mans mind map par programmēšanu
 
 * un šīs dienas faili (html,css,javascript)
+
+
+Līdz nākamajai nodarbībai izdarīt, uzkopēt šīs dienas failus, html,css, style
