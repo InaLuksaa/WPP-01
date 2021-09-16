@@ -4,3 +4,5 @@
 2021-09-16
 * Uzdevums
 * Mans mind map par programmēšanu
+
+* un šīs dienas faili (html,css,javascript)
