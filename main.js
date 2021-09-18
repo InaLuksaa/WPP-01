@@ -1,1 +1,2 @@
-console.log ('Sveiki cita stāstā');
+let a = new Date ()
+console.log (a)
