@@ -3,6 +3,12 @@
 
 <head>
 	<title>Mans logs</title>
+	<link rel="stylesheet" href="main.css">
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans Documents</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -17,7 +23,7 @@
 		  border: 1px solid white;
 		  border-collapse: collapse;
 		}
-		th, td {
+		th, td {s
 		  background-color: #96D4D4;
 		}
 		</style>
@@ -58,10 +64,47 @@
   </dl>
 <small><p> &copy; 2021 gada produkts </small> </p>
 
-<p> 2021.09.16  18:55</p>
+      <div id="txt" style="color:#ddd;background-color:orange;"></div>
 
+  <!-- <p>2021-09-16</p>  -->
+        <!-- <p>2021-09-16</p>  -->
+    <!-- <p id="shodiena" style="color: rgb(59, 117, 194); background-color: orange;">16/9/2021 18:39</p>  -->
+    <!-- rgb(223, 232, 245) -->
+    <h3>Mans pulkstenis</h3>
+    <div id="shodiena" 16/9/2021 18:55</div> 
+    <script type="text/javascript">
+    setInterval(displayclock,500);
+            function displayclock () {
+                var time = new Date();
+                var hrs = time.getHours();
+                var min = time.getMinutes();
+                var sec = time.getSeconds();
 
-<script>
+                if (hrs > 24) {
+                    hrs = hrs - 24;
+                }
+
+                if (hrs == 0) {
+                    hrs = 24;
+                }
+
+                if (hrs < 10) {
+                    hrs = '0' + hrs;
+                }
+
+                if (min < 10) {
+                    min = '0'+ min;
+                }
+
+                if (sec < 10) {
+                    sec = '0'+ sec;
+                }
+
+                document.getElementById('shodiena').innerHTML = hrs + ':' + min + ':' + sec;
+            }
+    </script>
+ 
+ <script>
 	console.log(new Date )
 	alert('Čau vai laiks ir redzams')
 	
